@@ -1,5 +1,5 @@
 :root {
-	--background: #bea7e5;
+	--background: #aea7e5;
 	--text: #000000;
 }
 
@@ -53,7 +53,7 @@ p {
 .content {
 	position: relative;
 	/* top | right | bottom | left */
-	margin: 0% 10% 5% 15%;
+	margin: 0% 10% 5% 10%;
 }
 
 .experience a {
