@@ -19,7 +19,7 @@ body {
 
 h1 {
   color: var(--text);
-  font-size: 7vh;
+  font-size: 5vh;
   font-weight: bolder;
 }
 h2 {
@@ -39,7 +39,7 @@ h4 {
 }
 p {
   color: var(--text);
-  font-size: 3vh;
+  font-size: 2vh;
   margin: 0 0 12px 0;
 }
 
@@ -84,4 +84,38 @@ a:hover {
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Space between buttons */
+    margin: 20px; /* Margin around the grid */
+}
+
+.button {
+    background-color: white; /* White background */
+    border: 2px solid black; /* Black border */
+    color: black; /* Black text */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Height of the button */
+    font-size: 20px; /* Font size */
+    border-radius: 10px; /* Rounded corners */
+    position: relative; /* Positioning context for the link */
+}
+
+.button a {
+    color: black; /* Black text for links */
+    text-decoration: none; /* No underline */
+    position: absolute; /* Positioning to fill the button */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    bottom: 0; /* Align to the bottom */
+    display: flex; /* Flex to center text */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
