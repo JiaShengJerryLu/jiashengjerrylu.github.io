@@ -1,0 +1,22 @@
+:root {
+	--background: #fffff;
+	--text: #000000;
+}
+
+.container {
+    max-width: 800px; /* Maximum width for the article */
+    margin: 0 auto;
+    padding: 20px; /* Padding inside the container */
+    
+}
+
+.header-image img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image */
+}
+
+.content {
+    margin-top: 20px; /* Space above the content */
+    margin-left: 200px;
+    margin-right: 200px;
+}
