@@ -102,7 +102,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 100px; /* Height of the button */
-    font-size: 20px; /* Font size */
+    font-size: 30px; /* Font size */
     border-radius: 10px; /* Rounded corners */
     position: relative; /* Positioning context for the link */
 }
