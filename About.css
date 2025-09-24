@@ -39,8 +39,12 @@ h4 {
 }
 p {
   color: var(--text);
-  font-size: 2vh;
+  font-size: 3vh;
   margin: 0 0 12px 0;
+}
+
+li {
+  font-size: 3vh;
 }
 
 /* Style the content */
@@ -51,9 +55,13 @@ p {
 }
 
 .content {
+  padding-left: 5%;
+  padding-right: 5%; /* Adaptive padding based on the window width */
+  text-align: left; /* Left-align the text */
 	position: relative;
 	/* top | right | bottom | left */
 	margin: 0% 10% 5% 10%;
+  
 }
 
 .experience a {

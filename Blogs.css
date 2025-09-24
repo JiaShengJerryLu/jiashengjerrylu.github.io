@@ -3,4 +3,26 @@
 	--text: #000000;
 }
 
-/* (Same content as About.css) */ 
+/* (Same content as About.css) */
+
+.thumbnail-button {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.thumbnail-button a {
+    text-decoration: none;
+    color: black;
+	display: block; /* Make the link fill the entire button */
+    height: 100%; /* Ensure the link takes the full height */
+    width: 100%; /* Ensure the link takes the full width */
+}
+
+.thumbnail-button:hover {
+    background-color: #f0f0f0;
+}
